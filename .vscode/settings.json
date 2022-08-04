@@ -1,0 +1,4 @@
+{
+  "markdown-pdf.includeDefaultStyles": false,
+  "markdown-pdf.styles": ["./github-markdown.css"]
+}
