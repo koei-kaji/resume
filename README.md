@@ -96,7 +96,7 @@
 | コード管理                   | GitHub                                                                                                 |
 | その他                       | Shell Script, Makefile, Batfile, PacScript, Slack, Redmine                                             |
 
-### 1.4.2. 2018/04 - 2019/05 : ISID
+### 1.4.2. 2018/04 - 2019/04 : ISID
 
 新卒でISIDに新入社員代表として入社し、1年間在籍。  
 6ヶ月の研修ののち、製造事業部戦略技術4部にコンサルタントとして配属された。  
