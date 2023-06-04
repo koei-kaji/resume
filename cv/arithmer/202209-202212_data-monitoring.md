@@ -117,18 +117,18 @@ GitHub ActionsとTrivyを用いてOSSライセンスチェックを半自動化�
 
 | カテゴリ                   | 使用技術         | 使用目的                                                                                                                     |
 | -------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| GCP                        | Cloud Firestore  | 時系列データの保持                                                                                                           |
-| GCP                        | Cloud Functions  | データ連携処理の起動                                                                                                         |
-| GCP                        | Cloud Logging    | データ連携処理のログ管理                                                                                                     |
-| GCP                        | Cloud Monitoring | データ連携処理のエラーやワーニングの通知                                                                                     |
-| GCP                        | Cloud Run        | バックエンドとなるWeb APIの起動                                                                                              |
-| GCP                        | Cloud Scheduler  | 定期的に実行が必要なデータ連携処理の起動                                                                                     |
-| GCP                        | Cloud Storage    | 受領データファイルや中間データファイルの保持                                                                                 |
-| GCP                        | Secret Manager   | ユーザ・パスワードなど、機密情報の保持・管理                                                                                 |
+| Google Cloud               | Cloud Firestore  | 時系列データの保持                                                                                                           |
+| Google Cloud               | Cloud Functions  | データ連携処理の起動                                                                                                         |
+| Google Cloud               | Cloud Logging    | データ連携処理のログ管理                                                                                                     |
+| Google Cloud               | Cloud Monitoring | データ連携処理のエラーやワーニングの通知                                                                                     |
+| Google Cloud               | Cloud Run        | バックエンドとなるWeb APIの起動                                                                                              |
+| Google Cloud               | Cloud Scheduler  | 定期的に実行が必要なデータ連携処理の起動                                                                                     |
+| Google Cloud               | Cloud Storage    | 受領データファイルや中間データファイルの保持                                                                                 |
+| Google Cloud               | Secret Manager   | ユーザ・パスワードなど、機密情報の保持・管理                                                                                 |
 | コンテナ技術               | Docker           | テスト用のFirestoreエミュレータコンテナやAPIコンテナを作成                                                                   |
 | CI/CD                      | GitHub Actions   | CI（フォーマットチェック、リント、テストの自動化、OSSライセンスチェック半自動化）、CD（Cloud Functionsなどのデプロイ自動化） |
 | ライブラリ・フレームワーク | FastAPI          | Web APIの実装                                                                                                                |
-| ライブラリ・フレームワーク | google-cloud-xxx | Cloud Storageなど、GCPサービスの利用                                                                                         |
+| ライブラリ・フレームワーク | google-cloud-xxx | Cloud Storageなど、Google Cloudサービスの利用                                                                                |
 | ライブラリ・フレームワーク | pandas           | ファイル読込時のデータチェック、重複除去、デフォルト値補完、データ変換など                                                   |
 | ライブラリ・フレームワーク | pydantic         | データ構造をモデル化・インスタンス化、コンフィグ                                                                             |
 | ライブラリ・フレームワーク | black, isort     | Pythonコードのフォーマット                                                                                                   |
