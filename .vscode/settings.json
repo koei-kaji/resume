@@ -1,4 +1,7 @@
 {
+  // REF: https://github.com/yzane/vscode-markdown-pdf/blob/master/README.ja.md
   "markdown-pdf.includeDefaultStyles": false,
-  "markdown-pdf.styles": ["./github-markdown.css"]
+  "markdown-pdf.styles": ["./github-markdown.css"],
+  // DEFAULT: "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm;\"> <span class='title'></span></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \"> <span class='date'></span></div>",
+  "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin-left: 1cm;\"> <span>https://github.com/koei-kaji/resume</span></div> <div style=\"font-size: 9px; margin-left: auto; margin-right: 1cm; \"> <span class='date'></span></div>"
 }
